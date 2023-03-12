@@ -1,0 +1,306 @@
+
+/* Small devices (portrait tablets and large phones, 767px and up) */
+
+ @media screen and (min-width: 767px) and (max-width: 1023px)
+ {  
+    .nav{
+        height: 100px;
+    }
+
+    ul li a{
+        font-size: 21px;
+    }
+    
+    .nav ul{
+     position: absolute;
+     left: 150px;
+     top: 40px;
+    }
+    
+
+    .leftside{
+        width: 150px;
+        height: 2100px;
+ }
+
+ .frame img{
+    height: 88px;
+    width: 88px;
+    top: 18px;
+    left: 30px;
+ }
+
+ .bar i{
+    position: absolute;
+    left: 55px;
+    top: 190px;
+    font-size: 50px;
+} 
+
+.bag i{
+    position: absolute;
+    left: 53px;
+    top: 330px;
+    font-size: 50px;
+} 
+
+.folder i{
+    position: absolute;
+    left: 55px;
+    top: 470px;
+    font-size: 50px;
+}
+ 
+
+.wrench i{
+    position: absolute;
+    left: 53px;
+    top: 590px;
+    font-size: 50px;
+}
+
+
+.progress i{
+    position: absolute;
+    top: 710px;
+    left: 53px;
+    font-size: 50px;
+}
+
+
+
+.setting i{
+    position: absolute;
+    left: 53px;
+    font-size: 50px;
+}
+
+
+
+.nav .mainMenu{
+    height: 100vh;
+    width: 490px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 500px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background: #E8E8E8;
+    transition: top 1s ease;
+    display: none;
+}
+
+  .nav .mainMenu .closeMenu{
+    display: block;
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+
+  .nav .openMenu{
+    display: block;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 900px;
+    top: 30px;
+}
+
+
+.mainMenu li button{
+    width: 250px;
+    height: 75px;
+    font-size: 35px;
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+
+.mainMenu li button:hover{
+    transform: scale(1.1);
+}
+
+.mainMenu li{
+    font-size: 40px;
+}
+
+.mainMenu li .circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    position: relative;
+    left: 290px;
+    bottom: 40px;
+}
+
+
+
+font{
+    font-size: 25px;
+    position: relative;
+    left: 11px;
+    bottom: 10px;
+}
+
+#text{
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+
+.mainMenu li img{
+    width: 92px;
+    height: 92px;
+    border-radius: 256px;
+    position: relative;
+    left: -29px;
+    bottom: 40px; 
+}
+
+.mainMenu li .circle1{
+    width: 25px;
+    height: 25px;
+    border: 4px solid #FFFFFF;
+    border-radius: 100px;
+    position: relative;
+    left: 30px;
+    top: -75px;
+}
+
+
+.name{
+    position: relative;
+    left: 100px;
+    bottom: 150px;
+}
+
+
+.mainMenu li #caret{
+    position: relative;
+    left: 370px;
+    bottom: 199px;
+}
+
+
+header{
+    height: 880px;
+    width: 823px;
+    position: absolute;
+    left: 155px;
+}
+
+form{
+    margin-top: 25px;
+}
+
+form i{
+    position: absolute;
+    top: 75px;
+    left: 40px;
+}
+
+header .box1{
+    height: 113px;
+    width: 264px;
+    margin-left: 250px;
+}
+
+header .box2{
+    height: 113px;
+    width: 264px;
+    margin-left: 250px;
+}
+
+header .box3{
+    height: 113px;
+    width: 264px;
+    margin-left: 250px;
+}
+
+aside{
+    height: 1116px;
+    position: relative;
+    top: 883px;
+    left: 154px;
+    width: 827px;
+}
+
+.profile #pro{
+    position: relative;
+    left: 30px;
+    top: 25px;
+}
+
+aside .word{
+    position: absolute;
+    left: 120px;
+    top: 55px;
+}
+
+
+aside .account{
+    position: absolute;
+    left: 610px;
+    top: 35px;
+    font-size: 16px;
+    color: #969696;
+}
+
+
+.line3{
+    width: 826px;
+}
+
+.navbar{
+    position: absolute;
+    left: -24px;
+    top: 140px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+}
+
+
+
+.pages{
+    position: absolute;
+    left: 600px;
+    top: 238px;
+}
+
+td,th {
+    padding: 20px;
+  }
+
+
+  td{
+    font-size: 13px;
+}
+
+#card{
+    position: relative;
+    right: 3px;
+} 
+
+
+
+#btn{
+    position: absolute;
+    bottom: 65px;
+}
+
+
+#btn button{
+    width: 25px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+
+
+}
